@@ -2,7 +2,7 @@ use super::point::Point;
 
 #[derive(Debug)]
 pub struct Triangle {
-  vertices: [Point; 3],
+  pub vertices: [Point; 3],
 }
 
 impl Triangle {
